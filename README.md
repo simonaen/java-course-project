@@ -11,3 +11,5 @@ The requirements of the projects are to:
 The context of the project is a store with multiple cash ragisters which service their own queue of customers. After a customer is serviced, a new .txt file with their receipt is generated.
 
 ### When ran, the program creates additional .txt files which are the customer receipts generated after their purchase.
+
+![UML Diagram](./src/StoreUML.png)
