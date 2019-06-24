@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="465.0">courseproject.Main</node>
+    <node x="41.066666666666606" y="257.0">courseproject.Store</node>
+    <node x="431.0666666666666" y="290.5">courseproject.Receipt</node>
+    <node x="211.0" y="465.0">courseproject.OutOfStockException</node>
+    <node x="0.0" y="0.0">courseproject.Goods</node>
+    <node x="267.0666666666666" y="312.5">courseproject.CashRegister</node>
+    <node x="262.99999999999994" y="44.0">courseproject.Cashier</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="courseproject.Receipt" target="courseproject.Cashier">
+      <point x="0.0" y="-48.0" />
+      <point x="514.5666666666666" y="232.0" />
+      <point x="394.66666666666663" y="232.0" />
+      <point x="52.666666666666686" y="59.5" />
+    </edge>
+    <edge source="courseproject.CashRegister" target="courseproject.Cashier">
+      <point x="0.0" y="-26.0" />
+      <point x="339.0666666666666" y="232.0" />
+      <point x="341.99999999999994" y="232.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="courseproject.Store" target="courseproject.Cashier">
+      <point x="68.66666666666663" y="-81.5" />
+      <point x="212.73333333333323" y="232.0" />
+      <point x="289.33333333333326" y="232.0" />
+      <point x="-52.66666666666666" y="59.5" />
+    </edge>
+    <edge source="courseproject.Store" target="courseproject.Goods">
+      <point x="-68.66666666666669" y="-81.5" />
+      <point x="75.39999999999992" y="232.0" />
+      <point x="49.0" y="232.0" />
+      <point x="-49.0" y="103.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="291.5" y="302.0" />
+  <SelectedNodes>
+    <node>courseproject.Receipt</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
